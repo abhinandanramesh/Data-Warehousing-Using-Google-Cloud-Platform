@@ -37,10 +37,10 @@ from apiclient.discovery import build
 from oauth2client.appengine import AppAssertionCredentials
 
 SCOPE = 'https://www.googleapis.com/auth/bigquery'
-PROJECT_ID = 'batterystat'
-BQ_DATASET_ID = 'datastore_battery_data'
-GS_BUCKET = 'joulejotter-battery'
-ENTITY_KIND = 'Model.BatteryInfoDB'
+PROJECT_ID = 'xxxxxx'
+BQ_DATASET_ID = 'xxxxxxx'
+GS_BUCKET = 'xxxxxxx'
+ENTITY_KIND = 'xxxxxxxx'
 
 class DatastoreMapperPipeline(base_handler.PipelineBase):
   	def run(self, entity_type):
